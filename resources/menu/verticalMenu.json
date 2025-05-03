@@ -1,0 +1,85 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "roles": [
+        "admin",
+        "hr",
+        "member"
+      ]
+    },
+    {
+      "url": "/users",
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "users",
+      "roles": [
+        "admin",
+        "hr"
+      ]
+    },
+    {
+      "url": "/projects",
+      "name": "Projects",
+      "icon": "menu-icon tf-icons bx bx-briefcase-alt-2",
+      "slug": "project",
+      "roles": [
+        "admin",
+        "hr"
+      ]
+    },
+    {
+      "url": "/project",
+      "name": "Project",
+      "icon": "menu-icon tf-icons bx bx-briefcase-alt-2",
+      "slug": "project",
+      "roles": [
+        "member"
+      ]
+    },
+    {
+      "url": "/todos",
+      "name": "Todos",
+      "icon": "menu-icon tf-icons bx bx-task",
+      "slug": "todos",
+      "roles": [
+        "admin",
+        "hr",
+        "member"
+      ]
+    },
+    {
+      "url": "/payslips",
+      "name": "Payslips",
+      "icon": "menu-icon tf-icons bx bx-money",
+      "slug": "payslips",
+      "roles": [
+        "admin",
+        "hr"
+      ]
+    },
+    {
+      "url": "/payslip",
+      "name": "Payslip",
+      "icon": "menu-icon tf-icons bx bx-money",
+      "slug": "payslip",
+      "roles": [
+        "member"
+      ]
+    },
+    {
+      "url": "/notes",
+      "name": "Notes",
+      "icon": "menu-icon tf-icons bx bx-note",
+      "slug": "notes",
+      "roles": [
+        "admin",
+        "hr",
+        "member"
+      ]
+    }
+  ]
+}

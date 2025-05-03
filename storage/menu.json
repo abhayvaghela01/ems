@@ -1,0 +1,75 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "roles": [
+        "admin",
+        "hr",
+        "member"
+      ]
+    },
+    {
+      "url": "/users",
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "users",
+      "roles": [
+        "admin"
+      ]
+    },
+    {
+      "url": "/manage-roles",
+      "name": "Manage Roles",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "manage-roles",
+      "roles": [
+        "admin"
+      ]
+    },
+    {
+      "url": "/todos",
+      "name": "Todos",
+      "icon": "menu-icon tf-icons bx bx-task",
+      "slug": "todos",
+      "roles": [
+        "admin",
+        "hr",
+        "member"
+      ]
+    },
+    {
+      "url": "/payslips",
+      "name": "Payslips",
+      "icon": "menu-icon tf-icons bx bx-money",
+      "slug": "payslips",
+      "roles": [
+        "admin",
+        "hr"
+      ]
+    },
+    {
+      "url": "/expense",
+      "name": "Expense",
+      "icon": "menu-icon tf-icons bx bx-credit-card",
+      "slug": "expense",
+      "roles": [
+        "admin",
+        "hr"
+      ]
+    },
+    {
+      "url": "/notes",
+      "name": "Notes",
+      "icon": "menu-icon tf-icons bx bx-note",
+      "slug": "notes",
+      "roles": [
+        "admin",
+        "hr",
+        "member"
+      ]
+    }
+  ]
+}
